@@ -1,22 +1,22 @@
-# ☀️ Barriers to Solar Energy Adoption
+# Barriers to Solar Energy Adoption
 
 An exploratory data analysis project examining **why solar energy adoption lags behind solar potential** — globally and within the United States. The analysis investigates economic, geographic, and infrastructure factors that drive or hinder solar adoption.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Despite abundant sunlight in many parts of the world, solar energy adoption remains highly unequal. This project asks:
 
-- Which countries and U.S. states have the highest solar potential — and are they using it?
+- Which countries and U.S. states have the highest solar potential, and are they using it?
 - What economic and infrastructure factors best explain adoption rates?
-- Within the U.S., how do installation costs, household income, and roof-level solar potential relate to actual installations?
+- Within the U.S., how do installation costs, household income, and solar potential relate to actual installations?
 
 The analysis is split into two notebooks: a **global view** and a **U.S.-focused deep dive**.
 
 ---
 
-## 📓 Notebooks
+## Notebooks
 
 | Notebook | Description |
 |---|---|
@@ -25,12 +25,12 @@ The analysis is split into two notebooks: a **global view** and a **U.S.-focused
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 **Global**
 - Solar adoption is highly right-skewed — a small number of countries account for the vast majority of installed capacity.
 - GDP per capita and grid reliability are the strongest predictors of adoption, even more than raw solar potential (GHI/PVOUT).
-- Many high-sunlight, low-income regions (Sub-Saharan Africa, parts of South Asia) are significant underperformers relative to their resource base.
+- Many high-sunlight, low-income regions (Africa, parts of South Asia) are significant underperformers relative to their resource base.
 - K-Means clustering identifies three country archetypes: *Developed Leaders*, *Emerging Markets*, and *Underperformers*.
 
 **United States**
@@ -40,7 +40,7 @@ The analysis is split into two notebooks: a **global view** and a **U.S.-focused
 
 ---
 
-## 📊 Datasets
+## Datasets
 
 | Dataset | Source |
 |---|---|
@@ -54,7 +54,7 @@ The analysis is split into two notebooks: a **global view** and a **U.S.-focused
 
 ---
 
-## 🛠️ Libraries Used
+## Libraries Used
 
 - `pandas`, `numpy` — data manipulation
 - `matplotlib`, `seaborn` — visualisation
@@ -63,7 +63,7 @@ The analysis is split into two notebooks: a **global view** and a **U.S.-focused
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── Solar_Energy_Analysis_Global.ipynb   # Global EDA, regression, clustering
@@ -73,7 +73,7 @@ The analysis is split into two notebooks: a **global view** and a **U.S.-focused
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
 2. Install dependencies:
@@ -90,7 +90,7 @@ The analysis is split into two notebooks: a **global view** and a **U.S.-focused
 
 ---
 
-## 📌 Notes
+## Notes
 
 - The U.S. installation cost analysis uses data from 2022 onward only.
 - Missing values in the cost dataset are encoded as `-1` and are treated as `NaN`.
